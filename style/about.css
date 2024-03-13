@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap");
+.about__page{
+    padding: 50px 0 0 0;
+}
+.current-page{
+    /* padding: 24px 0 0 0 ; */
+}
+.current-page p{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #3D3B39;
+    padding: 76px  0 65px 0;
+}
+.about-page {
+    background: url("../img/interiors-of-a-modern-kitchen-2021-09-01-22-06-53-utc\ 1.png") no-repeat top center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    background-attachment: fixed;
+    padding: 310px 0;
+}
+.about-page__title {
+    font-family: "Manrope";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #fff;
+}
+p {
+    color: #3d3b39;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.section__title {
+    color: #3d3b39;
+}
+/* our__idea */
+.our__idea {
+    padding: 120px 0;
+    text-align: center;
+}
+.our__idea .section__title {
+    margin: 0 0 32px 0;
+}
+.our__idea p {
+    margin: 24px 0 0 0;
+}
+.our__idea .read__more_btn {
+    width: 242px;
+    height: 48px;
+    margin: 24px 0 0 0;
+    padding: 13px;
+    color: #d88344;
+    border: 2px solid #d88344;
+    border-radius: 46px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+}
+/* our__idea end */
+
+/* for-she */
+.for-she {
+    background-color: #f6f6f6;
+}
+.for-she__items {
+    display: flex;
+    justify-content: space-between;
+    gap: 114px;
+    padding: 108px 0;
+}
+.for-she__item h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 24px;
+    color: #000000;
+    text-transform: capitalize;
+}
+.for-she__item img:first-child {
+    border-radius: 24px 24px 100px 24px;
+    -webkit-border-radius: 24px 24px 100px 24px;
+    -moz-border-radius: 24px 24px 100px 24px;
+    -ms-border-radius: 24px 24px 100px 24px;
+    -o-border-radius: 24px 24px 100px 24px;
+}
+.for-she__item img:last-child {
+    border-radius: 24px 24px 24px 100px;
+    -webkit-border-radius: 24px 24px 24px 100px;
+    -moz-border-radius: 24px 24px 24px 100px;
+    -ms-border-radius: 24px 24px 24px 100px;
+    -o-border-radius: 24px 24px 24px 100px;
+}
+
+/* for-she end */
+
+/* coco-today */
+.coco-today {
+    background-color: #566058;
+    padding: 96px 0;
+}
+.coco-today p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    color: #ffffff;
+}
+/* coco-today end */
+
+/* our-values */
+.our-values {
+    padding: 70px 0;
+}
+.our-values__items {
+    display: flex;
+    align-items: center;
+    gap: 108px;
+    margin: 45px 0 0 0;
+}
+.our-values__icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 83px;
+    height: 80px;
+    margin: 0 0 15px 0;
+    background: #fbf2ec;
+    border-radius: 8px 24px 8px 8px;
+    -webkit-border-radius: 8px 24px 8px 8px;
+    -moz-border-radius: 8px 24px 8px 8px;
+    -ms-border-radius: 8px 24px 8px 8px;
+    -o-border-radius: 8px 24px 8px 8px;
+}
+
+/* our-values end */
+
+/* our-team */
+.our-team {
+    background-color: #f6f6f6;
+    padding: 120px 0 100px 0;
+}
+.our-team__items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 30px;
+}
+.our-team__item {
+}
+.our-team__card {
+    margin: 40px 0 0 0;
+}
+.our-team__item .our-team__card img {
+    margin: 0 0 20px 0;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+/* our-team end */
+
+/* contact-us */
+.contact-us {
+    padding: 120px 0;
+}
+.contact-us__items {
+    display: flex;
+    /* gap: 50px; */
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.12);
+    border-radius: 20px;
+    overflow: hidden;
+}
+.contact-us__item {
+}
+.contact-us__item:last-child {
+    padding: 50px;
+}
+.contact-us__item .section__subtitle {
+    margin: 0 0 32px 0;
+}
+.form {
+}
+.form div {
+    margin: 0 0 24px 0;
+}
+label {
+    font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+    color: #918f96;
+    text-transform: capitalize;
+}
+.contact-us__item input {
+    width: 100%;
+    margin: 8px 0;
+    padding: 14px 16px;
+    background: #f6f6f6;
+    border-radius: 8px;
+}
+.contact-us__btn {
+    width: 529px;
+    height: 56px;
+    background: #d88344;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 41px;
+}
+.contact-us p{
+    color: #918F96;
+    margin: 24px 0 0 0;
+}
+.contact-us span{
+    color: #D88344;
+    cursor: pointer;
+}
+/* contact-us end */

@@ -1,0 +1,41 @@
+.page-not__found {
+    padding: 120px 0;
+    /* background: url('./../img/black-marble-background-2021-09-03-03-05-56-utc\ 1.png'); */
+    background: url('../img/black-marble-background-2021-09-03-03-05-56-utc\ 1.png') no-repeat center center;
+    /* background-size: cover; */
+    text-align: center;
+}
+.page-not__found h4:first-child {
+    color: #aba9a8;
+    margin: 0;
+}
+.page-not__found h4:last-child {
+}
+.big__number {
+   font-size: 400px;
+   font-weight: 700;
+   background: transparent;
+}
+h4 {
+    margin: 24px 0 32px 0;
+    font-size: 24px;
+    line-height: 32px;
+    color: #302f2e;
+}
+.main__page_btn {
+    width: 236px;
+    height: 56px;
+    background: #d88344;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 41px;
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    -ms-border-radius: 41px;
+    -o-border-radius: 41px;
+}
+.contractors{
+    padding: 120px 0;
+}

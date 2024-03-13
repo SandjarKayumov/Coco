@@ -1,0 +1,183 @@
+.about__company_page {
+    padding: 50px 0 0 0;
+}
+.about__company_page .contractors {
+    padding: 0 0 120px 0;
+}
+.about__company {
+    background: url("../img/about-company/about-company-bg.png") no-repeat center center;
+    height: 443px;
+    margin: 32px 0 24px 0;
+}
+.about__company .section__title {
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+    color: #302f2e;
+}
+.about__company__card_rating {
+    font-size: 14px;
+    color: #aba9a8;
+}
+.stars {
+    margin: 0;
+}
+.about__company__card_address {
+    font-size: 14px;
+    line-height: 20px;
+    color: #aba9a8;
+}
+.work__times {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #302f2e;
+    margin: 16px 0 24px 0;
+}
+.about__company__card_icons {
+    display: flex;
+    gap: 32px;
+    margin: 0 0 31px 0;
+}
+.about__company__card_icon {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.about__company__card_icon:first-child img {
+    background: rgba(26, 174, 121, 0.1);
+    padding: 6px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.about__company__card_icon:last-child img {
+    background: rgba(255, 153, 0, 0.1);
+    padding: 6px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.services {
+    padding: 40px 0;
+    border-top: 1px solid #e6e5e4;
+    border-bottom: 1px solid #e6e5e4;
+}
+.services nav ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.services nav ul li::before {
+    content: url("/img/about-company/chek.png");
+    margin-right: 10px;
+}
+.services nav ul li a {
+    color: #302f2e;
+    font-size: 18px;
+    line-height: 24px;
+}
+.interview {
+    margin: 60px 0;
+}
+.interview__items {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    border: 1px solid #aba9a8;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+.interview__item:first-child {
+}
+
+.interview__item {
+}
+.interview {
+}
+.director__items {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin: 32px 0 0 0;
+}
+.director__name {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: #302f2e;
+}
+.director__text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    line-height: 32px;
+    margin: 0 0 8px 0;
+}
+.interview__item:last-child {
+    position: relative;
+}
+.interview__item:last-child img:first-child {
+    position: absolute;
+    top: -48px;
+    right: -253px;
+}
+.interview__item:last-child img:last-child {
+    position: absolute;
+    top: 30px;
+    right: -345px;
+}
+.see__example {
+}
+.see__example_items {
+    width: 994px;
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    padding: 32px 0;
+}
+.see__example_items img {
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+.see__example a {
+    color: #d88344;
+    cursor: pointer;
+}
+.contract__information {
+    padding: 60px 0;
+}
+.contract__information p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #302f2e;
+}
+p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #302f2e; 
+}
+.contract__information .download {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(216, 131, 68, 0.1);
+    color: #D88344;
+    border-radius: 8px;
+    margin: 32px 0 0 0 ;
+    padding: 15px;
+}
